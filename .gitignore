@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Model weights
+*.pt
+*.onnx
+*.engine
+
+# Input videos and generated media
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+
+# Generated data
+outputs/*
+!outputs/.gitkeep
+*.csv
+*.json
+
+# Logs and temporary files
+*.log
+*.tmp
